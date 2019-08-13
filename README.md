@@ -15,7 +15,7 @@ Instructions:
       -for linux -> "/var/www/html/expense"
       -for windows -> "/xampp/htdocs/expense"
   2. open command prompt then locate the project frontend (e.g. '/xampp/htdocs/expense/frontend')
-  3. with npm installed type on the command line
+  3. with npm installed type on the command line type this command
  
       "npm install"
       
