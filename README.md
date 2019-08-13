@@ -18,6 +18,7 @@ Instructions:
   3. with npm installed type on the command line
  
       "npm install"
+      
       "npm run dev"
     
       now you can access the frontend on "localhost:8080" 
