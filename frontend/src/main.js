@@ -9,10 +9,13 @@ import Axios from 'axios'
 import store from './store'
 import mixins from './mixins'
 
+// import PieChart2 from 'vue-pie-chart/src/PieChart.vue'
+
 Vue.config.productionTip = false
 
 Vue.use(VueSession)
 Vue.prototype.$axios = Axios
+// Vue.component('pie-chart', PieChart2)
 
 /* eslint-disable no-new */
 new Vue({

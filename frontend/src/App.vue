@@ -3,6 +3,7 @@
     <!-- <img src="./assets/logo.png"> -->
     <div v-if="this.$session.id()">
         <!-- <router-view /> -->
+
         <dashboard></dashboard>
     </div>
     <div v-else>
@@ -16,6 +17,7 @@
 import LoginPage from '@/components/Login';
 import Dashboard from '@/components/Layouts/Dashboard'
 
+
 export default {
   name: 'App',
 
@@ -28,6 +30,8 @@ export default {
     // created(){
     //     this.$session.has('id');
     // },
+
+    
 
   components:{
       'login': LoginPage,
