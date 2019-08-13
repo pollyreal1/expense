@@ -25,6 +25,8 @@ Instructions:
       
   4. For the database, just access the backend through command line and run database name is expense (or jsut access the .env)
   
+      "composer update"
+  
       "php artisan migrate:fresh --seed"
       
   5. Then you are good to go!  
