@@ -17,6 +17,7 @@ Instructions:
   2. open command prompt then locate the project frontend (e.g. '/xampp/htdocs/expense/frontend')
   3. with npm installed type on the command line
  
+      "npm install"
       "npm run dev"
     
       now you can access the frontend on "localhost:8080" 
